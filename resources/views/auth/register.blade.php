@@ -60,6 +60,18 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
+                        <div class="row mb-3">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox"  value="true" id="flexCheckChecked" name="type">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Vous vouler vous enregistrer en tantque Entreprise
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
