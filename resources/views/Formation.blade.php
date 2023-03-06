@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+    @extends('layouts.app')
+
+    @section('content')
 <h1 class="h1">Formation</h1>
 <!DOCTYPE html>
 <html lang="en">
@@ -218,6 +221,6 @@ Connaître les fonctionnalités et les équipements d'interconnexion des différ
 </html>
 
 <a href="{{Route('route_candidature')}}">Choisir la formation</a>
-
+@endsection
 </body>
 </html>
