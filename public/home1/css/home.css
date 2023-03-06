@@ -1,0 +1,103 @@
+body{
+    background-image: url('../images/image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.navbar{
+    margin: 0%;
+    padding: 0%;
+    height: 46px;
+    width: 100%;
+    background-color: transparent;
+}
+.navbar-nav ms-auto{
+    background-color: #33DCDC;
+}
+.collapse navbar-collapse{
+    background-color: #33DCDC;
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    display: inline;
+    float: left;
+    padding: 0%;
+}
+li a{
+    color: rgb(158, 37, 37);
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    size: 20px;
+    margin: 0%;
+    text-align: center;
+}
+li a:hover{
+    background-color: #111;
+}
+#home  {
+    font-size: large;
+}
+#fa-bars{
+    float: right;
+    padding-right: 15px;
+}
+.content{
+    margin: 3rem !important;
+}
+h1{
+    font-size: 7rem !important;
+    text-align: center;
+    color: whitesmoke;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {color:rgb(20, 161, 255)}
+    25%  {color:rgb(196, 17, 250)}
+    50%  {color:blue}
+    75%  {color:rgb(81, 66, 218)}
+    100% {color:rgb(221, 135, 135)}
+  }
+button{
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    border-color: #33DCDC;
+    font-family: italic;
+}
+button a{
+    padding: 12.px 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+button :hover{
+    background-color: rgb(18, 36, 199);
+}
+
+#suivant{
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    color:white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#suivant:hover{
+    background-color: rgb(128, 128, 128);
+    color: black;
+}
+#navbarDropdown{
+    color: rgb(158, 37, 37);
+    padding-top: 15px;
+}

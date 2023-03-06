@@ -1,0 +1,200 @@
+body{
+    background-image: url(images/etoile.gif);
+  }
+  .accueil{
+    height: 100px;
+   color: black ;
+   padding-right: 35px;
+   padding-top: 20px;
+  }
+  
+  #inscription{
+    float: right;
+    margin-top: 5px;
+    border: 1px solid rgb(195, 0, 255);
+   background-color: transparent;
+  }
+  #inscription:focus {
+      outline: none !important;
+  }
+  
+  #inscription:hover {
+    color: rgb(255, 0, 149);
+  }
+  
+  .boite2{
+    text-align: center;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    background-color: transparent;
+      font-size: 15px;
+      line-height: 1.7;
+      color: #ffffff;
+    padding: 10px;
+    border: 1px solid rgb(255, 0, 149);
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+      
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+  }
+  
+  .boite2:focus {
+      outline: none !important;
+  }
+  
+  .boite2:hover {
+    color: rgb(195, 0, 255);
+  }
+  
+  #button {
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    #button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    #button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    #button:hover span {
+      padding-right: 25px;
+    }
+    
+    #button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  .descri{
+      margin: 15px 0;
+      display: inline-block;
+      color: black;
+      padding: 5px 20px;
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+    }
+    * {box-sizing:border-box}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .img{
+    height: 500px;
+    width: 100%;
+  }
+  
+  /* Next & previous buttons */
+  .prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(24, 20, 20);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    float: left;
+  }
+  .next {
+    float: right;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(24, 20, 20);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Le texte dans les pg */
+  .text {
+    color: #110f0f;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #f2f2f254;
+  
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(4, 1, 24);
+    margin-bottom: 0px;
+    
+  }
+  p{
+    color: aliceblue;
+    display: block;
+  }
+  
+  
+    
+  

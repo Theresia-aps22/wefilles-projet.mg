@@ -1,0 +1,161 @@
+body{
+    background-image: url("image/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.container{
+  z-index: 99;
+  overflow: hidden;
+  left: 0;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  background: #9152f8;
+  background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+  background: -o-linear-gradient(top, #7579ff, #b224ef);
+  background: -moz-linear-gradient(top, #7579ff, #b224ef);
+  background: linear-gradient(top, #7579ff, #b224ef);
+}
+.pill-nav{
+  float: right;
+}
+
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.pill-nav a:hover {
+    background-color: #ddd;
+    color: black; 
+}
+  
+.pill-nav a.active {
+    background-color: dodgerblue;
+    color: white
+    
+  }
+
+#logo{
+    width: 60px;
+    height: 58px;
+    border-radius: 50%;
+    
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  word-break: break-all;
+}
+h2{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  
+
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  
+}
+
+.row {
+  margin: 8px -16px;
+  display: flex;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.938);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: rgba(240, 233, 233, 0.61);
+  border-radius: 6px;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#profil{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+
+  
+
+}
+.footer{
+  background-color: rgba(218, 213, 213, 0.815);
+  float: bottom;
+  position: relative;
+  bottom: 100%;
+  transform: translate(-100%, -100%);
+}
+button{
+  background-color:#9e74e0;
+  border-color: #9e74e0;
+  border-radius: 2px;
+  font-size: 15px;
+  color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+

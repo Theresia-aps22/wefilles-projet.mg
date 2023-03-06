@@ -1,0 +1,25 @@
+.pill-nav{
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.329);
+    }
+
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pill-nav a:hover {
+    background-color: #ddd;
+    color: black; 
+}
+
+.pill-nav a.active {
+    background-color: dodgerblue;
+    color: white
+    
+  }
