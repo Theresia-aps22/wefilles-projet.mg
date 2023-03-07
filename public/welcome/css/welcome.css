@@ -194,7 +194,10 @@ body{
     color: aliceblue;
     display: block;
   }
-  
-  
+  .login{
+    padding: 20px;
+    background-color: #332d2d;
+  }
+
     
   

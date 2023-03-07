@@ -57,7 +57,7 @@
                     
                     <div class="wrap-input100 validate-input" data-validate = "Email">
 						<input class="input100" type="mail" name="email" placeholder="Email" value="{{ old('email') }}">
-						<span class="focus-input100" data-placeholder="&#x1F4E7;"></span>
+						<span class="focus-input100" data-placeholder="&#9993;"></span>
                         @error('email')
                         <span class="" role="alert">
                             <strong>{{ $message }}</strong>
@@ -127,7 +127,7 @@
     <!--===============================================================================================-->
 
 	<script src="{{asset('js/main.js')}}"></script>
-	{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script> --}}
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

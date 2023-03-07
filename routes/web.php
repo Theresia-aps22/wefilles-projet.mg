@@ -33,3 +33,5 @@ Route::get('/actualite', [App\Http\Controllers\ActualiteController::class, 'page
 Route::any('/Formation', [App\Http\Controllers\FormationController::class, 'formation'])->name('route_first');  
 Route::any('/Formation/Type', [App\Http\Controllers\FormationController::class, 'type_formation'])->name('route_candidature');
 
+Route::any('/offre', [App\Http\Controllers\OffreController::class, 'offre'])->name('offre-emploi');
+

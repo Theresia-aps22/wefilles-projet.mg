@@ -29,10 +29,10 @@
                         @auth
                             <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
                         @else
-                            <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+                            <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline" id="login">Log in</a>
 
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
+                                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline" id="register">Register</a>
                             @endif
                         @endauth
                     </div>
@@ -42,7 +42,7 @@
                             <div class="mySlides fade">
                                 <img class="img" src="{{asset('welcome')}}/image/michelle-baker-femme-informatique.jpg" >
                                 <div class="text">
-                                    <span class="descri"> Eddy Lamar, la mère du wifi </span> 
+                                    <span class="descri"> Michelle Baker</span> 
                                 </div>
                             </div>
                         
@@ -50,7 +50,7 @@
                                 <img class="img" src="{{asset('welcome')}}/image/sue-gardner-femme-informatique.jpg" >
                                 <div class="text">
                                     <span class="descri">
-                                        <h5>Michelle Baker</h5>
+                                       Sue Gardner
                                     </span> 
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                             <div class="mySlides fade">
                                 <img class="img" src="{{asset('welcome')}}/image/femme.jpg" >
                                 <div class="text">
-                                <span class="descri">JSkizhaofgavozkfvogzhglvzjfop</span> 
+                                <span class="descri">Femme</span> 
                                 </div>
                             </div>
                         

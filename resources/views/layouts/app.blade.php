@@ -65,10 +65,10 @@
                             <a href="/actualite">Actualité</a>
                         </li>
                         <li>
-                            <a href="">Entreprise</a>
+                            <a href="/entreprises">Entreprise</a>
                         </li>
                         <li>
-                            <a href="">Offre d'emploi</a>
+                            <a href="/offre">Offre d'emploi</a>
                         </li>  
                         <li>
                             <a href="#">Forum</a>

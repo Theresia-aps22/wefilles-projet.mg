@@ -1,23 +1,24 @@
-.pill-nav{
-    text-align: right;
-    background-color: rgba(0, 0, 255, 0.329);
-    }
-
-.pill-nav a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 20px;
+ul{
+    list-style-type: none;
+    
+  }
+  li{
+    display: inline;
+    float: left;
+    padding: 0%;
+  }
+  li a{
+    color: rgb(158, 37, 37);
+    display: block;
     text-decoration: none;
-    font-size: 17px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.pill-nav a:hover {
-    background-color: #ddd;
-    color: black; 
-}
-
+    padding: 14px 16px;
+    size: 20px;
+    margin: 0%;
+    text-align: center;
+  }
+  li a:hover{
+    background-color: #111;
+  }
 .pill-nav a.active {
     background-color: dodgerblue;
     color: white

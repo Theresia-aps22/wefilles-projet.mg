@@ -1,8 +1,6 @@
 body{
-    background-image: url('../images/image1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navbar{
     margin: 0%;
@@ -45,13 +43,15 @@ li a:hover{
     float: right;
     padding-right: 15px;
 }
-.content{
-    margin: 3rem !important;
-}
+
 h1{
     font-size: 7rem !important;
-    text-align: center;
     color: whitesmoke;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+h3{
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -101,3 +101,22 @@ button :hover{
     color: rgb(158, 37, 37);
     padding-top: 15px;
 }
+.container{
+    display: inline;
+}
+.content{
+    margin: 3rem !important;
+    margin-left: 7rem;
+}
+.image{
+    float: right;
+    width: 50%;
+    margin-right: 7rem;
+}
+img{
+    float: right;
+}
+@media screen and (max-width: 600px) {
+    .content, .image {
+    width: 100%;
+  }

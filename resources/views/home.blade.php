@@ -15,10 +15,13 @@
 
 @section('content')
 <div class="container">
-    
-    </div>
     <div class="content">
         <h1><i> Bienvenue</i></h1>
+        
+              <h5><i>__"Soyons l'avenir de demain"__</i></h5>
+    </div>
+    <div class="image">
+        <img src="home1/images/filles.jpg" alt="" width="350px" height="200px">
     </div>
 </div>
 @endsection

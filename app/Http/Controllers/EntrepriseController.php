@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Entreprise;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class EntrepriseController extends Controller
@@ -18,7 +20,12 @@ class EntrepriseController extends Controller
      */
     public function index()
     {
-        return view('entreprise.index');
+        $entreprises = Entreprise::all();
+        // $entreprises = User::where('type','=','entreprise')->get();
+        foreach($entreprises as $entreprise) {
+            $entreprise->user;
+        }
+        return view('entreprise.index', compact('entreprises'));
     }
 
     /**

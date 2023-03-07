@@ -3773,6 +3773,27 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-hover-color);
 }
 
+ul{
+  list-style-type: none;
+  
+}
+li{
+  display: inline;
+  float: left;
+  padding: 0%;
+}
+li a{
+  color: rgb(158, 37, 37);
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  size: 20px;
+  margin: 0%;
+  text-align: center;
+}
+li a:hover{
+  background-color: #111;
+}
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
